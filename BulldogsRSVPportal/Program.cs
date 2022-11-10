@@ -12,6 +12,7 @@ builder.Services.AddDbContext<BulldogsDbContext>(options =>
      builder.Configuration.GetConnectionString("BulldogsDbConnection")));
 
 
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
